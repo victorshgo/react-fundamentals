@@ -1,0 +1,41 @@
+section.repository-list {
+  width: fit-content;
+  margin: 40px auto;
+
+  h1 {
+    margin-bottom: 32px;
+  }
+
+  ul {
+    list-style-type: none;
+
+    li {
+      width: 500px;
+      padding: 15px;
+      background-color: #121214;
+      border: 1px solid #29282c;
+      border-radius: 8px;
+
+      & + li {
+        margin-top: 20px;
+      }
+    }
+
+    p {
+      font-size: 14px;
+      color: #444;
+      margin-top: 8px;
+      display: -webkit-box;
+      overflow: hidden;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 16px;
+      text-decoration: none;
+      color: #8257e6;
+    }
+  }
+}
